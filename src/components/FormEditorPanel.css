@@ -1,0 +1,17 @@
+.form-editor-panel{
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.element-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.element-button{
+    padding: 5px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+}

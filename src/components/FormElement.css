@@ -1,0 +1,159 @@
+.form-element {
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.form-element.active {
+  border-color: #a78bfa;
+  background-color: #f9f5ff;
+}
+
+.element-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.required-mark {
+  color: #ef4444;
+  margin-left: 4px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 2px;
+  height: 30px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #f9fafb;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #a78bfa;
+  background-color: #fff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.element-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.element-editor-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.required-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.btn-delete {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-delete:hover {
+  background-color: #fee2e2;
+}
+
+.options-editor {
+  margin-top: 16px;
+}
+
+.options-editor h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.option-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.option-row input[type="text"] {
+  flex-grow: 1;
+}
+
+.option-row button {
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.option-row button:hover {
+  background-color: #e5e7eb;
+}
+
+.btn-add-option {
+  margin-top: 8px;
+  background-color: #ede9fe;
+  color: #6d28d9;
+  border: 1px solid #c4b5fd;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-add-option:hover {
+  background-color: #ddd6fe;
+}
+
+.element-options span {
+  display: inline-block;
+  background-color: #f3f4f6;
+  color: #374151;
+  font-size: 13px;
+  padding: 4px 8px;
+  margin-right: 6px;
+  border-radius: 4px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

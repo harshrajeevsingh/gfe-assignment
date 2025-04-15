@@ -1,0 +1,24 @@
+.form-builder{
+    width: 100%;
+}
+.form-builder-header{
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: 2px solid gainsboro;
+}
+.form-builder-actions{
+    display: flex;
+    gap: 10px;
+}
+.form-builder-content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    gap: 50px;
+}

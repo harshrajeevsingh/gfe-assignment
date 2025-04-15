@@ -1,0 +1,31 @@
+.form-header {
+  background-color: #bcafd2;
+  padding: 2rem;
+  /* border-radius: 12px; */
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3), 0 4px 8px rgba(60, 64, 67, 0.15);
+  margin-bottom: 2rem;
+}
+
+.form-title-input {
+  width: 100%;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #202124;
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+}
+
+.form-description-input {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5f6368;
+  border: none;
+  outline: none;
+  resize: none;
+  background-color: transparent;
+  border-bottom: 2px solid #673ab7;
+  min-height: 60px;
+}
